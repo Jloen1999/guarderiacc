@@ -1,0 +1,141 @@
+* {
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  background-color: white;
+}
+
+.bordeDerecho {
+  position: absolute;
+  right: 0;
+}
+
+.titulo {
+  font-family: "Rubik Gemstones", cursive;
+}
+
+.form-check {
+  margin-top: -1em;
+}
+
+.fondo {
+  background-color: #333;
+}
+
+.navbar {
+  margin-top: 2em;
+}
+
+.nav-link:hover {
+  background-color: black;
+}
+
+.pt-5 {
+  margin-left: 2em;
+}
+
+.check {
+  font-size: 11px;
+}
+
+.news {
+  list-style: none;
+}
+
+.map, #map_container {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+@media screen and (max-width: 767px) {
+  * {
+    font-size: 10px;
+  }
+  .map, #map_container {
+    display: flex;
+    justify-content: start;
+    align-items: start;
+  }
+}
+@media screen and (min-width: 576px) {
+  .collapse {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+.experiencia {
+  padding: 40px 40px 60px 40px;
+}
+
+.experiencia .columna {
+  padding: 20px;
+  border: 2px solid rgba(128, 128, 128, 0.3019607843);
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.experiencia .columna:hover {
+  background-color: #333;
+}
+
+@media only screen and (max-width: 767px) {
+  #galeria div:nth-last-of-type(-n+2) {
+    display: none;
+  }
+}
+#cerrarSesion {
+  display: none;
+}
+
+.contenedor {
+  max-width: 1200px;
+  width: 95%;
+  margin: 0 auto;
+}
+
+.entrada-blog a {
+  display: inline-block;
+  background-color: #2196F3;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+/** CODIGO AQUI **/
+@media (min-width: 768px) {
+  .tres-columnas {
+    display: flex;
+    justify-content: space-between;
+  }
+  .entrada-blog {
+    flex: 0 0 calc(33.3% - 1rem);
+  }
+}
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: "Raleway", sans-serif;
+  font-size: 1.6rem;
+}
+
+img {
+  max-width: 100%;
+}
+
+/*# sourceMappingURL=estilos.css.map */
+
